@@ -1,4 +1,3 @@
-# -jyates301-.github.io
 # Jordan Yates – Intro to AI (AI 109) Course Site
 
 - **Deployed website URL**: `https://jyates301.io`
