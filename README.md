@@ -1,6 +1,6 @@
 # Jordan Yates – Intro to AI (AI 109) Course Site
 
-- **Deployed website URL**: `https://jyates301.github.io`
+- **Deployed website URL**: `https://jyates301.github.io/-jyates301-.github.io/`
 - **Purpose**: A single-page, static portfolio-style site presenting my work and information for the Intro to AI (AI 109) course.
 
 ## AI Usage
