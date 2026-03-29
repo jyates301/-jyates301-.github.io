@@ -241,3 +241,99 @@ body {
     padding: 1.25rem;
   }
 }
+
+/* Breakout page */
+
+.page-hero {
+  padding: 2.5rem 0 1rem;
+}
+
+.page-lead {
+  margin: 0;
+  max-width: 780px;
+  color: #4b5563;
+}
+
+.section-game {
+  padding-top: 1rem;
+}
+
+.game-shell {
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.75rem;
+  padding: 1rem;
+}
+
+.game-hud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.9rem;
+}
+
+.hud-stats {
+  display: flex;
+  gap: 1rem;
+  color: #111827;
+  font-weight: 600;
+}
+
+.game-controls {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.btn {
+  border: 1px solid #0ea5e9;
+  background-color: #0ea5e9;
+  color: #ffffff;
+  border-radius: 0.45rem;
+  padding: 0.45rem 0.8rem;
+  font: inherit;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus-visible {
+  background-color: #0284c7;
+  border-color: #0284c7;
+}
+
+.btn:focus-visible {
+  outline: 2px solid #38bdf8;
+  outline-offset: 2px;
+}
+
+.btn-secondary {
+  background-color: #ffffff;
+  color: #0369a1;
+}
+
+.game-stage {
+  display: grid;
+  place-items: center;
+}
+
+#gameCanvas {
+  width: min(100%, 760px);
+  height: auto;
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+  background: linear-gradient(180deg, #f8fafc 0%, #eef2ff 100%);
+}
+
+.game-message {
+  margin: 0.9rem 0 0;
+  min-height: 1.5rem;
+  color: #1f2937;
+  font-weight: 600;
+}
+
+.game-help {
+  margin-top: 0.9rem;
+  color: #4b5563;
+  font-size: 0.95rem;
+}
