@@ -337,3 +337,78 @@ body {
   color: #4b5563;
   font-size: 0.95rem;
 }
+
+/* Career essay page (Project 3) */
+
+.section-essay {
+  padding-top: 0.5rem;
+}
+
+.essay-meta {
+  margin: 0 0 0.35rem;
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #6b7280;
+}
+
+.essay-page-title {
+  text-transform: none;
+  letter-spacing: 0.02em;
+  font-size: 1.45rem;
+  line-height: 1.35;
+}
+
+.inline-code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 0.9em;
+  background-color: #eef2ff;
+  color: #1e3a8a;
+  padding: 0.12rem 0.35rem;
+  border-radius: 0.3rem;
+}
+
+.essay-article {
+  max-width: 720px;
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.75rem;
+  padding: 1.75rem 1.5rem 2rem;
+  color: #374151;
+}
+
+.essay-h3 {
+  margin: 1.75rem 0 0.65rem;
+  font-size: 1.05rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #111827;
+}
+
+.essay-h3:first-of-type {
+  margin-top: 0;
+}
+
+.essay-article p {
+  margin: 0 0 1rem;
+  font-size: 1rem;
+  line-height: 1.65;
+}
+
+.essay-list-numbered {
+  margin: 0 0 1rem;
+  padding-left: 1.35rem;
+  line-height: 1.65;
+}
+
+.essay-list-numbered li {
+  margin-bottom: 0.65rem;
+}
+
+.essay-list-numbered li:last-child {
+  margin-bottom: 0;
+}
+
+.nav-list a[aria-current="page"]::after {
+  width: 100%;
+}

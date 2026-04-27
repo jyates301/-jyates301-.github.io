@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Jordan Yates | AI and My Future Career</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Project 3 essay: AI and a future career in software and electrical engineering by Jordan Yates.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <h1 class="site-title">Jordan Yates</h1>
+        <p class="site-subtitle">Intro to AI (AI 109)</p>
+      </div>
+      <nav class="site-nav" aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="index.html">Main Page</a></li>
+          <li><a href="breakout.html">Breakout Game</a></li>
+          <li><a href="career-essay.html" aria-current="page">Career Essay</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="essay-meta">Project 3 · April 27, 2026</p>
+        <h2 id="essay-title" class="section-title essay-page-title">AI and My Future Career: Software and Electrical Engineering</h2>
+        <p class="page-lead">
+          This page publishes the essay from my Project 3 report for AI 109. The same ideas are also available as
+          Markdown (<code class="inline-code">career-report.md</code>) and can be converted to Word with Pandoc using
+          <code class="inline-code">report-style.docx</code> as the reference document.
+        </p>
+      </div>
+    </section>
+
+    <section class="section section-essay">
+      <div class="container">
+        <article class="essay-article" aria-labelledby="essay-title">
+          <h3 class="essay-h3">Career overview</h3>
+          <p>
+            The career path I am most seriously considering sits at the intersection of <strong>software engineering</strong> and <strong>electrical engineering</strong>, especially roles such as <strong>embedded systems engineer</strong>, <strong>firmware engineer</strong>, or <strong>hardware–software integration engineer</strong>. These roles interest me because they combine programming with physical systems: you write code that runs on microcontrollers, work with schematics and datasheets, bring up new boards, debug timing and power issues, and ship products that people can touch. Day-to-day work often includes designing and implementing low-level drivers, real-time control loops, communication stacks (for example CAN, SPI, or Ethernet), automated test harnesses, and collaboration with PCB designers and mechanical teams. In regulated domains such as automotive, medical devices, or aerospace, the same engineers may also trace requirements to tests, participate in failure-mode reviews, and maintain long-lived branches where a single erratum can affect thousands of units in the field. Skills that matter include structured problem solving, fluency in C or Rust (and sometimes Python for tooling), understanding of digital and analog fundamentals, version control, careful reading of standards and errata, and clear written communication for design reviews and test reports. Curiosity about how compilers map to machine code, how clocks propagate on a board, and how a watchdog interacts with bootloaders separates steady contributors from people who only copy examples without understanding failure boundaries.
+          </p>
+
+          <h3 class="essay-h3">AI disruption</h3>
+          <p>
+            Artificial intelligence is likely to <strong>automate or compress</strong> several parts of this work. <strong>Code generation and refactoring tools</strong> can already draft boilerplate drivers, header files, and unit tests from natural-language prompts or from PDF datasheets, which may reduce time spent on repetitive coding while increasing pressure to review machine output for subtle hardware-specific mistakes. <strong>Automated formal verification and static analysis</strong> assisted by AI could shorten some verification cycles but also shift job tasks toward specifying properties and interpreting tool reports rather than hand-writing every proof step. <strong>PCB layout and constraint checking</strong> are beginning to incorporate assistive features that propose routing or flag violations, which may reorganize how junior engineers learn layout craft and how teams staff layout versus review roles. <strong>Log analysis and anomaly detection</strong> trained on field telemetry can surface failure modes faster than manual grep through gigabytes of traces, potentially reducing purely investigative hours while demanding new skills in dataset hygiene and model validation. Finally, <strong>documentation and knowledge bases</strong> can be synthesized from scattered wikis and tickets, which can hollow out some technical writing tasks unless engineers deliberately curate authoritative human-checked references. <strong>Hiring signals may shift</strong>: employers could emphasize demonstrated verification discipline—what you measured, what broke, what you changed—rather than volume of lines typed, because raw coding speed becomes less scarce. <strong>Cross-training</strong> could accelerate if junior staff lean on assistants for syntax they once memorized, which is double-edged: faster progress when supervised well, and thinner intuition when supervision is absent.
+          </p>
+
+          <h3 class="essay-h3">AI benefits</h3>
+          <p>
+            Used well, AI can make engineers in this path <strong>more capable and efficient</strong>. Large language models can <strong>accelerate onboarding</strong> to unfamiliar peripherals by summarizing thousand-page manuals and suggesting register sequences that a human still validates on the bench. <strong>Copilots for test generation</strong> can propose edge-case inputs for parsers and state machines, improving coverage when paired with human judgment about safety-critical paths. <strong>Simulation and digital twin workflows</strong> can incorporate learned surrogates for slow physical components, allowing more design iterations before prototypes arrive. <strong>Natural-language interfaces to internal tools</strong> can lower friction for running builds, flashing devices, and querying CI history, which supports clearer communication across disciplines. For <strong>decision support</strong>, models can compare reference designs, highlight compatibility risks between supply-chain parts, and draft release notes—freeing time for architecture decisions that still require human accountability. <strong>Education and mentoring</strong> may blend synchronous labs with personalized AI drills, which benefits motivated learners but risks widening gaps if institutions cut hands-on hours without replacing them with equally rigorous bench time.
+          </p>
+
+          <h3 class="essay-h3">Gaining an advantage</h3>
+          <p>
+            Someone preparing for this blended career can use AI <strong>strategically rather than casually</strong>. First, treat every AI-assisted answer as <strong>draft evidence</strong>: reproduce results on hardware, cite the exact manual sections you relied on, and keep a lab notebook habit that mixes prompts with measured outcomes—this builds trust with mentors and mirrors how professional teams will expect traceability. Second, <strong>specialize the tools</strong>: build small private prompt libraries or scripts that encode your board’s memory map, toolchain quirks, and coding standard, so outputs are consistently aligned with your organization’s reality instead of generic GitHub style. Third, <strong>use AI for deliberate practice</strong>: generate quiz questions on Nyquist sampling, interrupt latency, or compiler optimizations, then grade your own explanations out loud; the bottleneck in interviews and design reviews is often clarity, not raw facts. Fourth, <strong>pair AI with open-source contribution or capstone depth</strong>—for example, improving a HAL layer or writing a reproducible benchmark—so your résumé shows shipped judgment, not only chat transcripts. Fifth, <strong>stay ethically grounded</strong>: learn where models hallucinate register names or silently “fix” endianness so you become the engineer leadership relies on when stakes are high.
+          </p>
+
+          <h3 class="essay-h3">Action plan</h3>
+          <p>Over the next year I will take at least three concrete steps tailored to an AI-influenced version of this career:</p>
+          <ol class="essay-list essay-list-numbered">
+            <li><strong>Deepen fundamentals with AI as tutor, not crutch:</strong> Complete a structured sequence (textbook or university courses) in signals, embedded C, and one RTOS, using AI only for targeted explanations after I attempt each problem set myself, and logging mistakes in a spaced-repetition deck I maintain by hand.</li>
+            <li><strong>Ship a measurable project:</strong> Design and implement one end-to-end embedded artifact—such as a sensor node with OTA updates or a motor controller with logged telemetry—and publish reproducible build instructions; I will use AI for drafting README sections and test matrices but personally verify every command and measurement.</li>
+            <li><strong>Build professional communication habits:</strong> Present two short tech talks (even to a student club) with slides refined using AI for clarity, gather feedback, and iterate; simultaneously maintain a public technical note or course website page that summarizes what I learned, citing sources transparently.</li>
+          </ol>
+
+          <h3 class="essay-h3">Sources and AI use</h3>
+          <p>
+            <strong>Sources consulted</strong> (conceptual, not exhaustive): course materials from AI 109 on responsible AI use; general knowledge of embedded software practice from textbooks and industry blogs on firmware quality, CI for hardware, and AI coding assistants; vendor documentation patterns typical of microcontroller reference manuals.
+          </p>
+          <p>
+            <strong>How I used AI tools:</strong> I used an AI assistant to help outline section boundaries, suggest plausible disruption and benefit scenarios for embedded-oriented roles, tighten wording for clarity, and verify Markdown conventions compatible with Pandoc. I reviewed each claim for realism against my own coursework and interests, rewrote passages so the voice reflects my own thinking, and chose the action plan items to match schedules and resources I can actually follow. AI also helped draft slide bullets from the longer report and troubleshoot Pandoc command examples aligned with the assignment.
+          </p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; 2026 Jordan Yates. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
