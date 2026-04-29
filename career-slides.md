@@ -1,12 +1,12 @@
-% AI and My Future Career
+% AI Consumption in Software-hardware engineering
 % Jordan Yates — Intro to AI (AI 109)
-% April 27, 2026 — Software & electrical engineering
+% April 27, 2026 — Electrical & computer engineering
 
 # What this career looks like
 
-- Code that runs **on** the machine: drivers, RTOS tasks, bootloaders
-- Partner with **EE** on bring-up, timing, power, and reliability
-- Core skills: **C/Rust**, digital fundamentals, measurement, clear docs
+- Code that runs **on** the machine: design systems where code directly interacts with physical components Ex. Infrared scanner
+- Partner with **EE** on bring-up, timing, power, and reliability testing
+- Core skills: **programming**, lab fundamentals, doc writing, collaboration
 
 # Why I am drawn to it
 
