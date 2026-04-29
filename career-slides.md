@@ -1,4 +1,4 @@
-% AI Consumption in Software-hardware engineering
+% Ai consumption in Software-hardware engineering
 % Jordan Yates — Intro to AI (AI 109)
 % April 27, 2026 — Electrical & computer engineering
 
@@ -10,15 +10,15 @@
 
 # Why I am drawn to it
 
-- I like **closed loops**: idea → prototype → test → ship
-- Blends **math, physics, and programming** without staying purely abstract
-- Problems are tangible—**oscilloscopes, logs, and latencies** keep you honest
+- I like **innovation**: idea → prototype → test → ship
+- Blends **problem solving and creativity**
+- Problems are limitless—**so are solutions**
 
 # AI disruption (automation & reorg)
 
-- **Boilerplate code & tests** from models and copilots—review becomes the bottleneck
-- **Datasheet Q&A** compressed; risk of confident wrong register advice
-- **Layout & constraint assist** shifts how juniors learn PCB craft
+- **Boilerplate code & tests** automates low-level and some complex coding tasks
+- **Shifts skill demand upward:** system architecture, integration, and optimization rather than code from scratch
+- **More advanced systems-Ai driven** shifts standard of basic skills
 - **Telemetry triage** faster—fewer manual log greps, more model hygiene work
 
 # Where models still stumble
