@@ -17,37 +17,42 @@
 # AI disruption (automation & reorg)
 
 - **Boilerplate code & tests** automates low-level and some complex coding tasks
-- **Shifts skill demand upward:** system architecture, integration, and optimization rather than code from scratch
+- **Shifts skill demand upward:** system architecture (Nueral Networks), integration, and optimization rather than building code from scratch
 - **More advanced systems-Ai driven** shifts standard of basic skills
-- **Telemetry triage** faster—fewer manual log greps, more model hygiene work
+- **Telemetry triage** faster—fewer manual log greps, model hygiene (Aesthetic)
+    - documentation
+    - data collection
 
 # Where models still stumble
 
-- **Race timing & analog coupling** need scopes, probes, and skepticism
-- **Confident wrong registers**—always cross-check the PDF errata
+- **Confident in wrong data**
+    - artistic ability
 - **Regulated sign-off** still rests on humans who can explain every change
+
 
 # AI benefits (stronger work)
 
-- Faster **onboarding** to unfamiliar peripherals—still verified on the bench
-- Richer **test matrices** for parsers, state machines, protocol edges
-- **CI and internal tools** easier to drive with natural-language glue
-- **Release notes & cross-design comparisons** drafted for human sign-off
+- Boosts **productivity and learning** 
+    - good for redundancy
+- Richer **innovation**: problem solving at different angles
+    - critical thinking
+    - access to just about all relevant info
+- Possible efficiency boosts in design/simulation modeling
 
 # Gaining an advantage
 
-- Treat AI output as **evidence to reproduce**, not authority
-- Maintain **prompt/tooling kits** tied to *your* boards and style guides
-- **Deliberate practice**: quizzes on sampling, interrupts, build flags—then explain aloud
-- **Ship artifacts**: public repos, capstones, talks—show judgment, not chat volume
+- Treat AI output as **evidence to reproduce**, qauntity over quality
+    - best for quick tasks
+    - most modern models still lack in reliability
+- Maintain **prompt/tooling kits** tied to *your* projects/circuits and style guides
+- **Deliberate practice**
+- **Ship artifacts**
+    - open source models
+    - reuse code
+    - prompt engineering
 
-# Action plan (next year)
-
-1. **Fundamentals first**—signals, embedded C, one RTOS—with AI as tutor after you try
-2. **One serious end-to-end project** with reproducible builds and measured results
-3. **Two short talks** + a polished **course-site essay** with transparent citations
 
 # Main takeaway
 
-- AI **amplifies** embedded/EE software work when you own **verification, ethics, and narrative**
+- AI **amplifies** embedded/EE software work when you own **verification, ethics, and moral narrative**
 - The durable edge is **what you measured**, what failed, and what you changed—**on real hardware**
